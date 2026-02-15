@@ -55,4 +55,113 @@ Results are available in:
 ---
 
 ## 📂 Repository Structure
+.
+├── notebooks/
+│ └── train_eval.ipynb # Training and evaluation notebook
+│
+├── figures/
+│ └── confusion_matrix.png # Visualization results
+│
+├── docs/
+│ ├── classification_report.txt
+│ ├── training_time.txt
+│ └── report.md
+│
+├── Final report/
+│ └── final_report_NLP.pdf
+│
+└── README.md
+---
 
+## 🚀 Installation & Usage
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/nlp-yelp-sentiment-project.git
+cd nlp-yelp-sentiment-project
+### 2️⃣ Create virtual environment (recommended)
+python -m venv venv
+venv\Scripts\activate
+### 3️⃣ Install dependencies
+pip install -r requirements.txt
+### 4️⃣ Run the notebook
+notebooks/train_eval.ipynb
+## 📌 Baseline Comparison
+
+The project compares its results against:
+
+- A fine-tuned BERT model trained on the same Yelp dataset
+
+Performance comparison focuses on:
+
+- F1-score
+- Precision / Recall balance
+- Training efficiency
+
+---
+
+## 🧪 Technical Stack
+
+- Python  
+- PyTorch  
+- Transformers (Hugging Face)  
+- Scikit-learn  
+- NumPy / Pandas  
+- Matplotlib / Seaborn  
+- Jupyter Notebook  
+
+---
+
+## 📎 Deliverables
+
+✔ Training Time  
+✔ Confusion Matrix  
+✔ Precision / Recall / F1-score  
+✔ Full Project Report  
+✔ Model Evaluation Documentation  
+
+---
+
+## 📚 Key Learnings
+
+- Practical experience with transformer fine-tuning  
+- Handling large NLP datasets  
+- Multi-class sentiment classification challenges  
+- Model evaluation and performance analysis  
+- Structured experimentation workflow  
+
+---
+
+## 👤 Author
+
+**Anas Khalil**  
+MSc Computer Science & Data Science  
+Specialization: NLP • Machine Learning • AI  
+
+---
+
+## 📌 Academic Context
+
+This project was completed as part of a Natural Language Processing module, where the objective was to build and evaluate a sentiment classification system capable of outperforming a baseline transformer model.
+
+---
+
+## ⭐ Future Improvements
+
+- Hyperparameter optimization with automated search  
+- Data augmentation  
+- Ensemble methods  
+- Deployment as an API  
+- Model compression for production use  
+
+---
+
+## 🔥 After Updating
+
+Run:
+
+```bash
+git add README.md
+git commit -m "Update README with baseline and project details"
+git push
